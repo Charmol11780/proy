@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0a3befb7a2654821bf7b947bd781765c" Name="Diagram1">
+        <EntityTypeShape EntityType="INNOTECModel.Categoria" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="INNOTECModel.Catologo" Width="1.5" PointX="9.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="INNOTECModel.Compra" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="INNOTECModel.Departamento" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="INNOTECModel.Envio" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="INNOTECModel.Productos" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="INNOTECModel.Proveedor" Width="1.5" PointX="5.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="INNOTECModel.Subcategoria" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="INNOTECModel.Tipo_de_usuario" Width="1.5" PointX="5.25" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="INNOTECModel.usuario" PointX="7.5" PointY="7.5" Width="1.5" IsExpanded="true" />
+        <AssociationConnector Association="INNOTECModel.fk_Categoria_Subcategoria1" ManuallyRouted="false" />
+        <AssociationConnector Association="INNOTECModel.fk_Departamento_Categoria1" ManuallyRouted="false" />
+        <AssociationConnector Association="INNOTECModel.fk_Catologo_Productos1" ManuallyRouted="false" />
+        <AssociationConnector Association="INNOTECModel.fk_Compra_Envio1" ManuallyRouted="false" />
+        <AssociationConnector Association="INNOTECModel.fk_Productos_Compra1" ManuallyRouted="false" />
+        <AssociationConnector ManuallyRouted="false" Association="INNOTECModel.fk_usuario_Compra1" />
+        <AssociationConnector Association="INNOTECModel.fk_Productos_Departamento1" ManuallyRouted="false" />
+        <AssociationConnector Association="INNOTECModel.fk_Productos_Proveedor1" ManuallyRouted="false" />
+        <AssociationConnector ManuallyRouted="false" Association="INNOTECModel.fk_usuario_Tipo_de_usuario1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
